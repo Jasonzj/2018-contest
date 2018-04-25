@@ -1,0 +1,26 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "这是星计划校招选拔的综合挑战题",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasonzj/2018-contest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasonzj/2018-contest/issues"
+  },
+  "homepage": "https://github.com/Jasonzj/2018-contest#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.8.3",
+    "postcss-modules": "^1.1.0"
+  }
+}
