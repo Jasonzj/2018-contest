@@ -19,7 +19,6 @@
   "homepage": "https://github.com/Jasonzj/2018-contest#readme",
   "devDependencies": {
     "autoprefixer": "^8.3.0",
-    "babel-preset-env": "^1.6.1",
     "node-sass": "^4.8.3",
     "postcss-modules": "^1.1.0"
   }
