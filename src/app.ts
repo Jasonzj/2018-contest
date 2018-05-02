@@ -1,6 +1,6 @@
 import Control from "./js/control"
 
-window.control = new Control(
+new Control(
   document.querySelector('.board'),
   document.querySelector('.btns'),
   document.querySelector('.scores__score span'),
