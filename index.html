@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>2048</title>
     <link rel="stylesheet" href="./src/styles/index.scss">
@@ -14,17 +14,60 @@
 
     <main class="main">
         <h1 class="title">2048</h1>
+
         <div class="scores">
             <p class="scores__score">
                 得分
                 <span>0</span>
             </p>
-            <p class="scores__score">
+            <p class="scores__score--best">
                 最佳
                 <span>0</span>
             </p>
         </div>
-    </main>
+
+        <div class="btns">
+            <button class="btns__speaker--on"></button>
+            <button class="btns__reset"></button>
+        </div>
+
+        <table class="board">
+            <tbody>
+                <tr>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                </tr>
+                <tr>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                </tr>
+                <tr>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                </tr>
+                <tr>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                    <td class="board__cell"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="mask">
+            <div class="gameover">
+                <h2>GameOver!</h2>
+                <button class="btns__reset"></button>
+            </div>
+        </div>
+    </main> 
+    
     <script src="./src/app.ts"></script>
 </body>
 </html>
